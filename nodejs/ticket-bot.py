@@ -18,7 +18,8 @@ def run(playwright: Playwright) -> None:
     page.click("text=OK")
 
     # Click input[role="searchbox"]
-    page.click("input[role=\"searchbox\"]")
+    page.click("input[role=\"searchbox\"]") 
+    
 
     # Fill input[role="searchbox"]
     page.fill("input[role=\"searchbox\"]", "ltt")
